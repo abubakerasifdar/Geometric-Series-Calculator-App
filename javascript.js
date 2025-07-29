@@ -1,4 +1,4 @@
-// 25 line of code
+// 30 line of code 15 line of code is logical and other is general code....
 document.addEventListener("keydown", (e) => {
     if (e.key == "Enter") {
         myFunction();
@@ -7,10 +7,12 @@ document.addEventListener("keydown", (e) => {
 })
 function myFunction() {
     let input = Number(document.getElementById('input').value);
+    let range = Number(document.getElementById('range').value);
     let result = "";
     let count = '';
-    for (let i = 1; i <= input; i++) {
-        count += `${(i / 2)}, `;
+    // this is for the 1 left part of series 
+    for (let i = 1; i <= range; i++) {
+        count += `${(1 / (input**i))}, `;
         console.log(i);
     }
     arraycount = count.split(",")
@@ -22,7 +24,8 @@ function myFunction() {
         Sum += Number(arraycount[j])
         console.log(Sum, "Sum is Started");
     }
-    result = `Your Entered: ${input} & <br> Series Upto ${input} is Following:<br> ${Series} The Total Sum of This Series is:${Sum}`;
+    let finalSeries = 1 + Sum;
+    result = `Your Entered: ${input} & <br> Series Upto ${input} is Following:<br> 1 <br> ${Series} The Total Sum of This Series is:${finalSeries}`;
     document.getElementById('output').style.display = "flex";
     document.getElementById('output').innerHTML = result;
 }
