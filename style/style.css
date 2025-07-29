@@ -15,20 +15,11 @@
 
         input {
             height: 40px;
-<<<<<<< HEAD
             width: 79%;
 
         }
 
         button {
-=======
-            width: 90%;
-            margin: 10px auto;
-        }
-
-        button {
-            width: 45%;
->>>>>>> d6e01889f40236ced262f720d63aa1044e8065be
             height: 46px;
             background-color: blue;
             color: white;
@@ -38,20 +29,12 @@
 
         }
 
-<<<<<<< HEAD
         #output {
-=======
-        #output , #output2 {
->>>>>>> d6e01889f40236ced262f720d63aa1044e8065be
        height: 10%;
             background-color: red;
             color: white;
             display: none;
-<<<<<<< HEAD
             width: 95%;
-=======
-            width: 90%;
->>>>>>> d6e01889f40236ced262f720d63aa1044e8065be
             justify-items: center;
             justify-content: center;
             align-items: center;
