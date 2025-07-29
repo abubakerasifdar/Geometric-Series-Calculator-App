@@ -16,11 +16,20 @@
 
         input {
             height: 40px;
+<<<<<<< HEAD
             width: 75%;
+=======
+            width: 90%;
+            margin: 10px auto;
+>>>>>>> d6e01889f40236ced262f720d63aa1044e8065be
 
         }
 
         button {
+<<<<<<< HEAD
+=======
+        width: 45%;
+>>>>>>> d6e01889f40236ced262f720d63aa1044e8065be
             height: 46px;
             background-color: blue;
             color: white;
@@ -30,7 +39,11 @@
 
         }
 
+<<<<<<< HEAD
         #output {
+=======
+        #output, #output2 {
+>>>>>>> d6e01889f40236ced262f720d63aa1044e8065be
             height: 10%;
             background-color: red;
             color: white;
